@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Example from "../Recharts";
+import Charts from "../Recharts";
 
 const SubTabs = ["Daily", "Weekly", "Monthly"];
 
@@ -30,7 +30,7 @@ const Steps = (props) => {
           ))}
         </ul>
       </div>
-      <Example />
+      <Charts />
     </div>
   );
 };

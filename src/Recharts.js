@@ -83,7 +83,7 @@ const Data = [
   },
 ];
 const data = [{ name: "Page", pv: 0 }, ...randomArray()];
-export default function Example() {
+export default function Charts() {
   return (
     <div className="chart-container">
       <ResponsiveContainer width="100%" height="100%">
