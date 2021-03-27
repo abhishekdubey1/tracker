@@ -4,6 +4,7 @@ import Charts from "../Recharts";
 const SubTabs = ["Daily", "Weekly", "Monthly"];
 
 const Steps = (props) => {
+  console.log(process.env.CI);
   const [activeSubTab, setActiveSubTab] = useState(SubTabs[1]);
   return (
     <div>
